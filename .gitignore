@@ -118,6 +118,7 @@ modules/*
 override/*
 themes/*/
 !themes/classic
+!themes/lifestyle
 !themes/_core
 !themes/_libraries
 
