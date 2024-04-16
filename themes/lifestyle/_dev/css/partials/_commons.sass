@@ -1,0 +1,246 @@
+body,
+html
+	height: 100%
+
+body
+	font-family: $primary-font, sans-serif
+	font-size: $base-font-size
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	color: $gray-darker
+	line-height: 1.25em
+	.growl // notification like product page
+		border-radius: $border-radius
+		&.growl-default
+			background: $alert-info-bg
+			border: 1px solid $alert-info
+			color: $alert-info
+		
+		.growl-close, .growl-message
+			color: $alert-info
+
+*:focus
+	outline: none
+
+.no-padding
+	padding: 0 !important
+
+.noshadow
+	box-shadow: none
+
+hr
+	border-top: 1px solid $gray-light
+
+ul
+	list-style: none
+	padding-left: 0
+
+.hide
+	display: none
+
+// TO TOP BUTTON 
+
+.to-top
+	opacity: 0
+	z-index: 1
+	position: fixed
+	right: 50px
+	bottom: 40px
+	transition: opacity 0.3s ease-in-out
+	-webkit-transition: opacity 0.3s ease-in-out
+	@include media-breakpoint-down(md)
+		display: none
+	
+	a
+		display: block
+		color: $gray
+		&:hover
+			color: $brand-primary
+		
+		i
+			text-align: center
+			font-size: 30px !important
+
+@element body and (min-scroll-y: 1%) and (max-scroll-y: 90%)
+	.to-top
+		opacity: 1
+	
+.container
+	@include media-breakpoint-down(md)
+		max-width: 100%
+		width: 100%
+	
+// WRAPPER
+
+#wrapper
+	padding-top: $medium-space
+	@include media-breakpoint-down(sm)
+		padding-top: $small-space
+
+	.banner
+		display: block
+		margin: $large-space 0
+		img
+			margin-left: 15px
+	
+	.breadcrumb
+		background: transparent
+		padding: 0 15px
+		@include media-breakpoint-down(lg)
+			padding: 0
+		&[data-depth="1"]
+			display: none
+		
+		ol
+			padding-left: 0
+			margin-bottom: 0
+		
+		li
+			display: inline
+			font-size: 11px
+			&::after
+				content: "/"
+				color: $gray
+				margin: $extra-small-space
+			
+			&:last-child
+				content: "/"
+				color: $gray
+				margin: 0
+				&::after
+					content: ""
+				
+			a, span
+				font-size: 11px
+
+	// MAIN
+
+	#main
+		.page-header
+			margin-top: 25px
+		
+		.page-footer
+			margin-bottom: 25px
+		
+		#notifications
+			ul
+				margin-bottom: 0
+
+// TABLES 
+
+.table
+	a
+		text-decoration: underline
+	
+	td, th
+		padding: $small-space
+		vertical-align: middle !important
+	
+	&.table-striped
+		th
+			background: none
+		
+		tbody tr:nth-of-type(odd)
+			background: $gray-lighter
+		
+	&.table-bordered, 
+	&.table-bordered td, 
+	&.table-bordered th
+		border: 1px solid $gray-light
+	 
+// BRANDS/SUPPLIERS/MANUFACTURERS PAGES
+
+.page-manufacturer, 
+.page-supplier
+	.brand
+		margin: $medium-space 0
+		padding-bottom: $medium-space
+		border-bottom: 1px solid $gray-light
+		&:last-child
+			border: none
+		
+		.brand-infos
+			margin-bottom: $small-space
+		
+		.brand-products
+			a
+				display: inline-block
+				i
+					font-size: 10px !important
+
+	#products
+		margin: $medium-space 15px 0 !important
+		#js-product-list
+			margin-top: $large-space
+			.product-miniature
+				width: 29%
+				margin-bottom: 100px
+
+	.pagination
+		margin-top: 45px
+
+// Hack btn touchspin 
+
+.btn-touchspin
+	i
+		&:after
+			display: none
+
+// Example: on checkout page icon done
+
+.done
+	color: $brand-success
+	display: inline-block
+	padding: 0 $small-space
+	margin-right: 0
+
+.definition-list
+	dl
+		display: flex
+		flex-wrap: wrap
+		dt
+			font-weight: normal
+		
+		dd,
+		dt
+			flex: 0 0 45%
+			background: $gray-lighter
+			padding: $small-space
+			margin: 2px
+			&:nth-of-type(even)
+				background: $white
+
+.card
+	border-radius: $border-radius
+	.card-block
+		padding: 15px
+	
+.help-block
+	margin-top: $small-space
+
+.nav-item
+	.nav-link,
+	.nav-separator
+		color: $gray
+		font-weight: bold
+		&.active
+			color: $gray-darker
+
+// Customize list for search modul
+
+.ui-menu
+	box-shadow: 0 1px 8px 0 rgba(0,0,0,.3)
+	border: none !important
+	border-radius: 0 !important
+	padding: 0 !important
+	.ui-corner-all
+		border: none !important
+		padding: $small-space !important
+		&.ui-state-focus, 
+		&.ui-state-active
+			background: $gray-lighter
+			border: none !important
+			margin: 0 !important
+			border-radius: 0 !important
+		.separator
+			display: none

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="533bf2149f935df1f934e5ee55f68d20">
+        <source><![CDATA[Estimate the cost of shipping & taxes.]]></source>
+        <target><![CDATA[Estimez vos frais de livraison & taxes]]></target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="59716c97497eb9694541f7c3d37b1a4d">
+        <source>Country</source>
+        <target>Pays</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="46a2a41cc6e552044816a2d04634545d">
+        <source>State</source>
+        <target>État</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="5e178542b85fb18ca3c459e9a95f4f2e">
+        <source>Zip Code</source>
+        <target>Code postal</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="9207f4078f515ecc8256bae33fa1f497">
+        <source>Needed for certain carriers.</source>
+        <target>Nécessaires pour certains transporteurs</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="914419aa32f04011357d3b604a86d7eb">
+        <source>Carrier</source>
+        <target>Transporteur</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="a82be0f551b8708bc08eb33cd9ded0cf">
+        <source>Information</source>
+        <target>Informations</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:72</note>
+      </trans-unit>
+      <trans-unit id="3601146c4e948c32b6424d2c0a7f0118">
+        <source>Price</source>
+        <target>Prix</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="1de0f9fcbe30b056483fe964aed55adc">
+        <source>Update cart</source>
+        <target>Mettre à jour le panier</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="a305b69f91e8c50117cc540114b9ba06">
+        <source>Estimate Shipping Cost</source>
+        <target>Estimer les frais de livraison</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_carriercomparison/template/ps_carriercomparison.tpl:81</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

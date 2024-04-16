@@ -1,0 +1,30 @@
+.page-home
+
+	// Adapt module on hook displayHome (Homepage)
+	
+	.facet, 
+	.block-categories,
+	.search-widget
+		margin: 0 0 0 $large-space
+		@include media-breakpoint-down(sm)
+			margin: 0 15px
+
+	.user-info
+		@include media-breakpoint-down(sm)
+			margin: 0 15px
+
+	.block-contact, 
+	.block_newsletter
+		margin: $small-space 15px
+		@include media-breakpoint-down(sm)
+			margin: $small-space 0
+
+	.search-widget
+		clear: both
+		padding: 15px 0
+
+	.blockcart 
+		.header 
+			.blockcart-details 
+				&:before, &:after 
+					display: none

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/themes/lifestyle/templates/customer/_partials/order-messages.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="cfe1b4b75fb8dc152b124f9305835a11">
+        <source>Your message</source>
+        <target>Deine Nachricht</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/templates/customer/_partials/order-messages.tpl:70</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/templates/_partials/footer.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="a2a24f4120a52aa71620662c73eced9d">
+        <source>Your cart is empty</source>
+        <target>Ihr Warenkorb ist leer</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/templates/_partials/footer.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="7e0bf6d67701868aac3116ade8fea957">
+        <source>Proceed to checkout</source>
+        <target>Zur Kasse</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/templates/_partials/footer.tpl:65</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/templates/catalog/product.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Weiterlesen</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/templates/catalog/product.tpl:98</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

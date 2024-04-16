@@ -1,0 +1,53 @@
+.alert 
+	font-size: $font-size-sm
+	padding: 12px
+	border-radius: $border-radius
+	margin: $large-space 15px 15px
+	display: inline-block
+	width: 100%
+	background: $white
+	.content-help-info 
+		height: 100%
+		margin: 0 15px
+		text-align: left
+		display: flex
+		align-items: center
+		p, span, a 
+			font-size: $font-size-sm
+			line-height: 22px
+			font-weight: 300
+			font-family: $primary-font
+			margin: 0
+		a 
+			text-decoration: underline
+			font-weight: bold
+			&:hover 
+				text-decoration: none
+		ul 
+			margin-bottom: 0
+			li 
+				font-size: $font-size-sm
+			ul 
+				padding-left: $medium-space
+				li 
+					list-style: disc
+	&.alert-info 
+		background: $alert-info-bg
+		.content-help-info 
+			p, span, a, li 
+				color: $alert-info	
+	&.alert-success 
+		background: $alert-success-bg
+		.content-help-info 
+			p, span, a, li 
+				color: $alert-success	
+	&.alert-warning 
+		background: $alert-warning-bg
+		.content-help-info 
+			p, span, a, li 
+				color: $alert-warning
+	&.alert-danger 
+		background: $alert-danger-bg
+		.content-help-info 
+			p, span, a, li 
+				color: $alert-danger

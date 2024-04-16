@@ -1,0 +1,73 @@
+.quickview
+	.modal-dialog
+		width: calc(100% - 30px)
+		max-width: 1024px
+	
+	.modal-content
+		min-height: 450px
+	
+	.modal-header
+		border: none
+		padding: $small-space
+	
+	.modal-body
+		min-height: 380px
+	
+	.modal-footer
+		border-top: 1px solid rgba($gray,.3)
+	
+	.layer
+		display: none
+	
+	.product-cover img
+		width: 95%
+	
+	.images-container
+		display: flex
+		z-index: 1
+		min-height: 350px
+		.product-images > li.thumb-container > .thumb
+			width: 79px
+			margin-bottom: 13px
+			background: $white
+	.mask
+		width: 35%
+		height: 360px
+		overflow: hidden
+		margin-left: $small-space
+	
+	.product-actions
+		margin-top: $medium-space
+	
+	.arrows
+		position: absolute
+		top: 0
+		height: 390px
+		right: 52px
+		top: -30px
+		z-index: 0
+		.arrow-up
+			margin-top: -50px
+			cursor: pointer
+			opacity: 0.2
+		
+		.arrow-down
+			position: absolute
+			bottom: -30px
+			cursor: pointer
+
+	.btn
+		&.add-to-cart
+			font-size: 12px
+			line-height: 12px
+			padding: 15px 45px
+			margin: $extra-small-space 0 $small-space
+
+@include media-breakpoint-down(sm)
+	.quickview
+		.images-container
+			display: inherit
+			min-height: inherit
+
+		.mask
+			height: inherit

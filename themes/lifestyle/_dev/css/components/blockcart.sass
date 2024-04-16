@@ -1,0 +1,117 @@
+.blockcart 
+	margin: $large-space 0 $extra-small-space $medium-space;
+	white-space: nowrap
+	position: relative
+	&.cart-preview
+		.shopping-cart
+			vertical-align: middle
+	&.inactive
+		&:hover
+			cursor: pointer
+		.cart-products-count
+			@include media-breakpoint-down(sm)
+				display: none
+
+	.header
+		position: relative
+		a
+			position: relative
+		.dropdown-item
+			padding: 0
+			height: 30px
+			a, i
+				&:hover
+					.badge
+						color: $white
+		.blockcart-details
+			display: none
+			z-index: 2
+			position: absolute
+			border-radius: 0
+			border: none
+			top: 35px
+			left: -245px
+			background: $white
+			min-width: 310px
+			text-align: center
+			box-shadow: 0 1px 8px 0 rgba(0,0,0,.3)
+			&:before, &:after
+				bottom: 100%
+				left: 82%
+				border: solid transparent
+				content: " "
+				height: 0
+				width: 0
+				position: absolute
+				pointer-events: none
+			&:after
+				border-bottom-color: $white
+				border-width: $small-space
+				margin-left: -$small-space
+			&:before
+				border-bottom-color: rgba(0, 0, 0, 0.2)
+				border-width: 11px
+				margin-left: -11px
+			li
+				border-top: 1px solid $gray-light
+				padding: $medium-space 15px 15px
+				margin-top: $medium-space
+				position: relative
+				&:first-child
+					border-top: none
+					padding-bottom: 0
+					margin-top: 0
+				.blockcart-product-detail
+					.col-md-4, .col-md-8
+						padding: 0 $small-space
+					span
+						display: block
+						text-align: left
+						width: 85%
+						word-wrap: break-word
+						white-space: pre-wrap
+						&.product-name
+							text-transform: uppercase
+					.remove-from-cart
+						position: absolute
+						top: 25px
+						right: 10px
+						background: $gray-lighter
+						border: 1px solid $gray-light
+						border-radius: 50%
+						display: block
+						width: 25px
+						height: 25px
+						i
+							font-size: 11px !important
+							color: $gray
+			.blockcart-price-view
+				background: $gray-lighter
+				border-top: 1px solid $gray-light
+				padding: 15px 0
+				.cart-total-price
+					font-size: $font-size-xlg
+					display: inline-block
+					padding: $medium-space $extra-small-space $medium-space $extra-small-space
+				.btn
+					padding: 15px $small-space
+					width: 100%
+			.cart-empty
+				padding: 15px
+				display: block
+			.customizations
+				border-top: 1px solid $gray-light
+				margin-top: $small-space
+				li
+					padding-top: $small-space
+
+	&:hover
+		.blockcart-details
+			display: block		
+		
+	
+
+
+		
+	
+

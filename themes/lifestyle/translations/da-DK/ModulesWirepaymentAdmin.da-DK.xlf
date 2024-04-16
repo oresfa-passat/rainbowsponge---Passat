@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/themes/lifestyle/modules/ps_wirepayment/views/templates/hook/infos.tpl" source-language="da-DK" target-language="da-DK" datatype="plaintext">
+    <body>
+      <trans-unit id="c1be305030739396775edaca9813f77d">
+        <source>This module allows you to accept secure payments by bank wire.</source>
+        <target>Dette modul giver dig mulighed for at modtage betalinger ved bankoverførsel.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_wirepayment/views/templates/hook/infos.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="cfc0561623b37471f267aa911092b3ac">
+        <source>If the client chooses to pay by bank wire, the order status will change to 'Waiting for Payment'.</source>
+        <target>Hvis kunden vælger at betale med bankoverførsel, vil ordrens status skifte til "Afventer betaling".</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_wirepayment/views/templates/hook/infos.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="5fb4bbf993c23848433caf58e6b2816d">
+        <source>That said, you must manually confirm the order upon receiving the bank wire.</source>
+        <target>Derfor skal du manuelt bekræfte ordren, så snart du modtager betalingen.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_wirepayment/views/templates/hook/infos.tpl:36</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/themes/lifestyle/modules/ps_wirepayment/views/templates/hook/infos.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="c1be305030739396775edaca9813f77d">
+        <source>This module allows you to accept secure payments by bank wire.</source>
+        <target>Ce module vous permet d'accepter les paiements par virement bancaire.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_wirepayment/views/templates/hook/infos.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="cfc0561623b37471f267aa911092b3ac">
+        <source>If the client chooses to pay by bank wire, the order status will change to 'Waiting for Payment'.</source>
+        <target>Si le client choisit ce mode de paiement, la commande passera à l'état "Paiement en attente".</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_wirepayment/views/templates/hook/infos.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="5fb4bbf993c23848433caf58e6b2816d">
+        <source>That said, you must manually confirm the order upon receiving the bank wire.</source>
+        <target>Par conséquent, vous devez confirmer manuellement la commande dès que vous recevrez le virement.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_wirepayment/views/templates/hook/infos.tpl:36</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

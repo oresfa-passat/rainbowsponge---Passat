@@ -1,0 +1,168 @@
+// GLOBAL
+
+.bold
+	font-weight: bold
+.italic
+	font-style: italic
+.underline
+	text-decoration: underline
+.nounderline
+	text-decoration: none !important
+.linethrough
+	text-decoration: line-through !important
+.text-right
+	text-align: right
+.text-left
+	text-align: left
+
+// ALL Hs
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5
+	font-family: $primary-font
+	color: $gray-dark
+
+
+h1, h2,
+.h1, .h2
+	font-size: 26px
+	line-height: 28px
+
+h3, h4, h5,
+.h3, .h4, .h5
+	font-size: $font-size-sm
+	text-transform: uppercase
+	line-height: 19px
+
+
+// HEADINGS
+
+.headings
+	font-family: $primary-font
+	color: $gray-dark
+	font-weight: 700
+	a
+		font-family: $primary-font
+	&.headings-xlarge
+		font-size: 52px
+		line-height: 59px
+	
+	&.headings-large
+		font-size: 40px
+		line-height: 44px
+	
+	&.headings-medium
+		font-size: 26px
+		line-height: 28px
+	
+	&.headings-small
+		font-size: $font-size-sm
+		text-transform: uppercase
+		line-height: 19px
+	
+	&.headings-xsmall
+		font-size: $font-size-xs
+		text-transform: uppercase
+		line-height: 17px
+	
+	&.headings-alternative
+		font-family: $secondary-font
+		&.headings-large
+			font-size: 52px
+			line-height: 59px
+			&.headings-with-bg
+				color: $gray-lighter
+		&.headings-xsmall
+			font-size: $font-size-xs
+			text-transform: uppercase
+			line-height: 17px
+
+// LEADS
+
+.leads
+	font-family: $primary-font
+	color: $gray-dark
+	&.lead-1
+		font-size: $font-size-xlg
+		line-height: 29px
+	
+	&.lead-2
+		font-size: $font-size-md
+		line-height: 29px
+	
+	&.lead-with-bg
+		color: $gray-light
+		font-size: $font-size-lg
+		line-height: 27px
+	
+// PARAGRAPH
+
+p, span, div
+	font-family: $primary-font
+	color: $gray-darker
+	margin: 0
+	&.regular-text
+		line-height: 21px
+		font-size: $font-size-md
+		&.default-text
+			color: $gray-dark
+			a
+				text-decoration: underline
+				color: $gray-dark
+			
+		&.highlight-text
+			color: $gray
+			a
+				text-decoration: underline
+				color: $gray
+			
+	&.small-text
+		line-height: 20px
+		font-size: $font-size-xs
+		&.default-text
+			color: $gray-dark
+			a
+				text-decoration: underline
+				color: $gray-dark
+			
+		
+		&.highlight-text
+			color: $gray
+			a
+				text-decoration: underline
+				color: $gray
+			
+// LINKS
+
+a
+	font-family: $primary-font
+	color: $gray-darker
+	&:hover
+		text-decoration: none
+		color: $brand-primary
+	&:focus, &:active
+		outline: none
+		text-decoration: none
+		color: $brand-primary
+	
+	&.regular-text
+		line-height: 21px
+		font-size: $font-size-md
+	
+	&.small-text
+		line-height: 20px
+		font-size: $font-size-xs
+	
+dd, dt
+	line-height: 21px
+	font-size: $font-size-md
+	font-family: $primary-font
+	color: $gray-darker
+
+// FontAwesome
+
+.fa
+	font-size: $font-size-md !important
+	&.fa-caret-down
+		font-size: $font-size-lg !important
+	

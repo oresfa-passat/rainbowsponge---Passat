@@ -1,0 +1,146 @@
+.cart-grid
+	margin: 15px 0
+
+.cart-grid-body
+	@include media-breakpoint-down(md)
+		margin-bottom: $medium-space
+	.no-items
+		@include media-breakpoint-down(xs)
+			padding: 15px
+			display: inline-block
+
+/** CART BODY (LEFT) **/
+
+.cart-overview
+	margin-bottom: $medium-space
+
+.cart-items
+	margin-bottom: 0
+
+.cart-item
+	padding: 16px 0
+	@include media-breakpoint-down(xs)
+		border-bottom: 1px solid $gray-light
+		&:last-child
+			border-bottom: 0
+
+/** CONTENT LEFT **/
+
+.product-line-grid-left
+	@include media-breakpoint-down(xs)
+		padding-right: 0 !important
+	img
+		max-width: 100%
+
+/** CONTENT CENTER **/
+
+.product-line-grid-body
+	> .product-line-info
+		> .out-of-stock
+			color: $brand-danger
+		
+		> .available
+			color: $brand-primary
+		
+		> .unit-price-cart
+			display: inline-block
+
+		&.has-discount
+			.discount
+				padding-left: $extra-small-space
+				font-size: $font-size-xs
+
+/** CONTENT RIGHT **/
+
+.product-line-grid-right
+	.price
+		margin-top: $small-space
+
+	.bootstrap-touchspin
+		> .form-control,
+		> .input-group
+			height: 50px
+			background-color: $white
+			width: 65px
+			margin-top: $small-space
+	.cart-line-product-actions
+		color: $gray-darker
+		line-height: 36px
+		.remove-from-cart 
+			color: $gray-dark
+			display: inline-block
+			margin-top: $small-space
+			i
+				font-size: $font-size-xlg !important
+
+/** CART RIGHT **/
+
+hr
+	margin: $small-space 0
+
+.promo-discounts
+	margin-bottom: 0
+
+.cart-summary-line
+	@include clearfix
+	clear: both
+	.cart-items
+		margin-bottom: 0
+	.cart-item
+		padding: 16px 0
+	.code
+		text-decoration: underline
+		cursor: pointer
+	.value
+		float: right
+		a
+			text-decoration: none !important
+
+/*** Module Carrier Comparison ***/
+
+.js-carrier-compare
+	.btn
+		width: 100%
+
+.alert
+	margin: 15px 0
+	.content-help-info
+		margin: 0
+
+.block-promo
+	margin-top: $small-space
+	.promo-code
+		margin-top: $medium-space
+		.alert-danger
+			position: relative
+			margin: $small-space 0 0
+			display: none
+			.content-help-info
+				span 
+					margin: 0
+	.promo-input
+		width: 55%
+		float: left
+		+ button
+			margin: 0
+			float: right
+	.promo-name
+		span
+			color: $brand-primary
+		a
+			display: inline-block
+			i
+				font-size: $font-size-md !important
+	.promo-code-button
+		display: inline-block
+	&.promo-highlighted
+		padding-bottom: 0
+		margin-bottom: 0
+
+/*** Responsive part ***/
+
+@include media-breakpoint-down(sm)
+	.product-line-grid-right
+		margin-top: $large-space
+		.price
+			text-align: right

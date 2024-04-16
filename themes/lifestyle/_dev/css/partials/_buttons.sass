@@ -1,0 +1,78 @@
+.btn
+	width: auto
+	display: inline-block
+	outline: none
+	text-decoration: none
+	cursor: pointer
+	background: $brand-primary
+	color: $white
+	text-align: center
+	text-transform: uppercase
+	font-family: $primary-font
+	font-weight: 700
+	margin: $small-space 0
+	overflow-wrap: break-word
+	white-space: inherit
+	border-radius: 0
+	border: none
+	@include transition(all .4s ease-in-out)
+	&:hover
+		background: $default-hover-button
+	
+	&:focus, &:active
+		background: $default-active-button
+		outline: none !important
+	
+	&.btn-medium
+		font-size: $font-size-md
+		line-height: 14px
+		padding: $medium-space 45px
+		i
+			font-size: $font-size-md !important
+			font-weight: 300
+			padding-right: $extra-small-space
+		
+	&.btn-small
+		font-size: $font-size-xs
+		line-height: 12px
+		padding: 15px 45px
+		i
+			font-size: $font-size-xs !important
+			font-weight: 300
+			padding-right: $extra-small-space
+		
+	&.btn-icon // Like Newsletter subscription on footer
+		margin: 0
+		padding: 0
+		background: none
+		&:before
+			font-family: $fa-font
+			content: "\f054"
+			position: absolute
+			z-index: 1
+			color: $gray-darker
+			font-size: $font-size-xs
+			top: 11px
+			right: 29px
+		
+		input
+			background: none
+			border: none
+			position: absolute
+			right: 15px
+			top: 0
+			width: 35px
+			height: 34px
+			outline: none
+			z-index: 1
+		
+	&.btn-ghost
+		background: $white
+		border: 1px solid $gray-light
+		color: $gray
+	
+	&.btn-disabled
+		background: $gray-light
+		border: 1px solid $gray-lighter
+		color: $gray-dark
+	

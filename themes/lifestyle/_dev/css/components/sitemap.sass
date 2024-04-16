@@ -1,0 +1,18 @@
+.sitemap
+	margin: 25px 0 0 -15px
+	@include media-breakpoint-down(md)
+		margin: 15px 0 0
+	
+	h2
+		border-bottom: 1px solid $gray-light
+		padding-bottom: $extra-small-space
+		width: 100%
+	
+	ul
+		margin: $medium-space 0 0 15px
+
+		&.nested
+			margin: $small-space 0 0 $medium-space
+
+		li
+			margin-bottom: 0.5rem

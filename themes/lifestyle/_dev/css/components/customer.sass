@@ -1,0 +1,336 @@
+// SOME GENERIC STYLES
+
+.table-labeled
+	th
+		color: $gray-dark
+		font-size: $font-size-md
+	
+	td
+		vertical-align: middle
+		color: $gray-dark
+		font-size: $font-size-sm
+	
+	.label
+		border-radius: 3px
+		font-size: inherit
+		padding: 4px 6px
+		margin: 2px
+		color: $white
+		white-space: nowrap
+
+.page-order
+	.table
+		margin-bottom: 0
+	
+	table
+		th
+			padding: 8px
+		
+		td
+			padding: 8px
+		
+		thead
+			th
+				text-align: center
+
+#notifications, .notifications
+	padding: 0 15px
+
+#authentication
+	.tooltip.tooltip-bottom
+		padding: 0
+		margin: 0
+
+#identity,
+#authentication
+	.radio-inline
+		padding: 0
+		.custom-radio
+			margin-right: 0
+
+	.custom-checkbox
+		display: flex
+
+.login-form, 
+.js-customer-form,
+.js-address-form
+	margin-top: $medium-space
+
+// Most of the customer account pages
+
+.page-customer-account
+	#content
+		.leads
+			margin-bottom: $medium-space
+		
+		.order-actions
+			a
+				padding: 0 2px
+			
+		.forgot-password
+			margin-top: 16px
+			padding-bottom: 15px
+		
+		.renew-password
+			.email
+				padding-bottom: $medium-space
+			
+		.no-account
+			font-size: $font-size-md
+
+// Addresses page
+
+.page-addresses
+	i
+		position: relative
+		top: 1px
+	
+	.address
+		margin-bottom: $small-space
+		font-size: $font-size-sm
+		color: $gray-darker
+		.address-body
+			margin-top: 15px
+			address
+				min-height: 100px
+			
+		
+		.address-footer
+			border-top: 1px solid $gray-light
+			padding: $small-space 0
+			a
+				color: $gray-dark
+				margin-right: 8px
+				&:hover
+					color: $gray-darker
+				
+				i
+					font-size: $font-size-md !important
+				
+				span
+					vertical-align: middle
+					padding-left: $extra-small-space
+
+	.addresses-footer
+		margin: 0 15px $large-space
+		a
+			color: $gray-darker
+			&:hover
+				color: $gray-darker
+			
+			span
+				vertical-align: middle
+				margin-top: $small-space
+
+// Order details page
+
+.page-order-detail
+	.box
+		margin-bottom: 16px
+		header
+			p
+				margin-bottom: $small-space
+			
+	i
+		font-size: $font-size-xlg !important
+		&.fa-file-pdf-o
+			color: $brand-danger
+
+
+	h3
+		margin-bottom: 16px
+	
+	#order-infos
+		ul
+			margin: 0
+		
+	#order-history
+		.history-lines
+			.history-line
+				padding: 8px 0
+				border-bottom: 1px solid $gray-light
+				&:last-child
+					border-bottom: 0
+				
+				.label
+					display: inline-block
+					margin: 4px 0
+					padding: 4px 6px
+					color: $white
+					border-radius: 3px
+
+	.addresses
+		margin: 0 -15px
+		@include media-breakpoint-down(sm)
+			margin: 0 auto
+		
+	#order-products
+		&.return
+			margin-bottom: 16px
+			th
+				&.head-checkbox
+					width: 30px
+				
+			td
+				padding: 1.375rem 0.75rem
+				&.qty
+					min-width: 125px
+					.current
+						width: 30%
+						float: left
+						text-align: right
+						padding-right: 0.5rem
+					
+					.select
+						width: 70%
+						float: left
+						margin: -0.625rem 0
+						padding-left: 0.25rem
+						select
+							text-align: center
+
+	.order-items
+		padding: 0 !important
+		.order-item
+			padding: 16px 0 0
+			border-bottom: 1px solid $gray-light
+			.checkbox
+				width: 30px
+				float: left
+				padding: 0 15px
+			
+			.content
+				width: calc(100% - 30px)
+				float: left
+				padding: 0 15px
+			
+			.desc
+				margin-bottom: 16px
+			
+			.qty
+				margin-bottom: 16px
+				.q
+					margin-bottom: 4px
+				
+				.s
+					margin-bottom: 4px
+
+	.messages
+		.message
+			margin-top: 8px
+			border-bottom: 1px solid $gray-light
+			&:last-child
+				border-bottom: 0
+			
+			> div
+				margin-bottom: 8px
+	
+	.customization
+		margin-top: 12px
+
+// Order return page
+
+#order-return-infos
+	.table
+		margin-top: $medium-space
+	
+	.customization
+		margin-top: 12px
+	
+
+// My account landing page
+
+#my-account
+	header, footer
+		a
+			&:hover
+				border: none !important
+
+.page-my-account
+	#content
+		.links
+			margin-top: $medium-space
+			display: flex
+			flex-wrap: wrap
+			justify-content: flex-start
+			a
+				border: 1px solid $gray-light
+				text-align: center
+				display: inline-block
+				font-size: $font-size-xlg
+				font-weight: bold
+				color: $gray-dark
+				padding: $large-space 15px
+				margin: 0 $small-space $large-space
+				max-width: 350px
+				@include media-breakpoint-down(sm)
+					margin-left: $small-space
+					margin-right: $small-space
+					max-width: inherit
+					width: 100%
+				
+				span.link-item
+					display: block
+					height: 100%
+				
+				i
+					font-size: 24px !important
+					color: $gray-darker
+					padding-right: 15px
+				
+				&:hover
+					color: $gray-darker
+					border: 1px solid $brand-primary
+					i
+						color: $brand-primary
+
+// History page
+
+#history
+	.orders
+		margin: 0
+		.order
+			padding: 12px 0
+			border-bottom: 1px solid $gray-light
+			.label
+				display: inline-block
+				margin: 4px 0
+				padding: 4px 6px
+				color: $white
+				border-radius: 3px
+			
+			&:last-child
+				border-bottom: 0
+			
+			i
+				font-size: $font-size-xlg !important
+
+// Alerts page
+
+#module-ps_emailalerts-account
+	.js-remove-email-alert
+		background: $gray-lighter
+		border: 1px solid $gray-light
+		border-radius: 50%
+		display: inline-block
+		width: 25px
+		height: 25px
+		text-align: center
+		margin-left: $extra-small-space
+		i
+			font-size: 11px !important
+			color: $gray
+
+// FOOTER
+
+.account-link
+	margin-right: 16px
+	i
+		position: relative
+		top: 1px
+		font-size: $font-size-sm !important
+	
+	span
+		font-size: $font-size-sm
+		vertical-align: middle
+		padding-left: $extra-small-space

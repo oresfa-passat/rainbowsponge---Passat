@@ -1,0 +1,72 @@
+@mixin placeholder
+	&::-webkit-input-placeholder
+		@content
+	&:-moz-placeholder
+		@content
+	&::-moz-placeholder
+		@content
+	&:-ms-input-placeholder
+		@content
+
+@mixin search-box
+	form
+		position: relative
+		input
+			&:focus // to change
+				outline: none
+				border: 1px solid $gray-dark
+				color: $gray-dark
+				background: $white
+				+ button .search
+					color: $gray-dark
+			
+			border: 1px solid $gray-light
+			border-radius: 40px
+			padding: $small-space $small-space $small-space $medium-space
+			height: 34px
+			min-width: 255px
+			background: $white
+			color: $gray
+			width: 100%
+			@include placeholder
+				color: $gray
+		
+		button[type=submit]
+			position: absolute
+			background: none
+			border: none
+			bottom: 0
+			right: 7px
+			top: -1px
+			color: $gray-dark
+			.search:hover
+				color: $gray-dark
+
+@mixin box-shadow
+	box-shadow: 0 6px 8px 0 rgba(0,0,0,.3)
+
+@mixin input-placeholder
+	&.placeholder
+		@content
+	&:-moz-placeholder
+		@content
+	&::-moz-placeholder
+		@content
+	&:-ms-input-placeholder
+		@content
+	&::-webkit-input-placeholder
+		@content  
+
+// Media queries mixins 
+
+@mixin media-max($width)
+	@media screen and (max-width: $width)
+		@content
+
+@mixin media-min($width)
+	@media screen and (min-width: $width)
+		@content
+	
+@mixin media-between($min, $max)
+	@media screen and (min-width: $min) and (max-width: $max)
+		@content

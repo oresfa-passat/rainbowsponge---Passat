@@ -1,0 +1,66 @@
+#stores
+	.page-stores
+		margin: $medium-space auto 0
+		.store-item
+			border-bottom: $gray-light 1px solid
+		
+		.store-item-container
+			display: flex
+			justify-content: space-around
+			align-items: center
+			padding: $large-space 0
+			@include media-breakpoint-down(sm)
+				padding: 15px 0
+			
+			@include media-breakpoint-down(xs)
+				display: block
+			
+			.store-picture
+				img
+					max-width: 100%
+				
+			.store-description
+				line-height: 21px
+				font-size: $font-size-md
+				color: $gray-dark
+				a, address
+					@include media-breakpoint-down(xs)
+						margin-bottom: $small-space
+				
+			.divide-left
+				border-left: $gray-light 1px solid
+				@include media-breakpoint-down(xs)
+					border-left: none
+				tr
+					height: 25px
+				td
+					padding-left: $extra-small-space
+					ul
+						margin-bottom: 0
+						line-height: 21px
+						font-size: $font-size-md
+						color: $gray-dark
+				th
+					text-align: right
+				
+		.store-item-footer
+			margin-top: $small-space
+			padding: $small-space 15px 0
+			@include media-breakpoint-down(xs)
+				display: block
+			
+			&.divide-top
+				border-top: $gray-light 1px dashed
+			
+			div
+				&:first-child
+					flex: 0 0 65%
+			
+			ul
+				border-left: $gray-light 1px solid
+				li
+					margin-bottom: $small-space
+					i
+						margin-right: $small-space
+						color: $gray
+						font-size: $base-font-size

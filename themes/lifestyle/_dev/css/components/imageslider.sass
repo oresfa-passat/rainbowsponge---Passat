@@ -1,0 +1,71 @@
+.carousel
+	@include media-breakpoint-down(sm)
+		background: none !important
+	
+	.carousel-indicators
+		li
+			&:hover
+				background: $brand-primary
+				border: 1px solid $brand-primary
+		
+	.carousel-details
+		max-width: 1110px
+		margin: auto
+		position: relative
+		.carousel-inner
+			margin-bottom: 0
+			max-height: 500px
+		
+		.carousel-item
+			img
+				width: 100%
+				margin-left: 0
+			
+			.caption
+				position: absolute
+				top: 150px
+				left: 30px
+				color: white
+				max-width: 580px
+				p
+					color: $white
+					margin-top: $small-space
+				
+			.headings
+				margin-bottom: $medium-space
+			
+			.leads
+				margin-bottom: $medium-space
+				h2
+					font-size: $font-size-xlg
+					line-height: 29px
+					font-family: $primary-font
+				p
+					width: 90%
+				
+		.direction
+			z-index: auto
+			.carousel-control
+				opacity: 1
+				.icon-next,
+				.icon-prev
+					&::before
+						content: ""
+					
+					i
+						font-size: 30px !important
+						color: $white
+					
+					&:hover
+						i
+							color: $brand-primary
+					
+				.icon-prev
+					left: 25px
+				
+				.icon-next
+					right: 32px
+				
+				&.left,
+				&.right
+					background: none

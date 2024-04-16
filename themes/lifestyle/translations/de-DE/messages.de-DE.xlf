@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/themes/lifestyle/modules/pushoncart/views/templates/front/productAttributes.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="bd182e7fb139ee060f4802e042a23fb4">
+        <source>This product is no longer in stock with those attributes but is available with others.</source>
+        <target>This product is no longer in stock with those attributes but is available with others.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/pushoncart/views/templates/front/productAttributes.tpl:39</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/modules/pushoncart/views/templates/front/productOffer.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="6bb24468956384c482a8b5a901fb6383">
+        <source>Offer</source>
+        <target>Offer</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/pushoncart/views/templates/front/productOffer.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="182356e0a61341d61fc9bd21f4808951">
+        <source>Product You May Like</source>
+        <target>Product You May Like</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/pushoncart/views/templates/front/productOffer.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="638f592f71fc3fac3351534e69f9d29f">
+        <source>Add to Cart</source>
+        <target>Add to Cart</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/pushoncart/views/templates/front/productOffer.tpl:100</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="f5bf48aa40cad7891eb709fcf1fde128">
+        <source>product</source>
+        <target>product</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="86024cad1e83101d97359d7351051156">
+        <source>products</source>
+        <target>products</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="88fce2b99f817432202ca313ad0dc857">
+        <source>left in stock</source>
+        <target>left in stock</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="c1b235006495fe24194409a192aca88a">
+        <source>If you want to save products for later you need to login first :</source>
+        <target>If you want to save products for later you need to login first :</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:108</note>
+      </trans-unit>
+      <trans-unit id="b6d4223e60986fa4c9af77ee5f7149c5">
+        <source>Sign in</source>
+        <target>Anmelden</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:108</note>
+      </trans-unit>
+      <trans-unit id="2d801c24938b12e4ca9a2cf9b980c759">
+        <source>Error !</source>
+        <target>Error !</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:115</note>
+      </trans-unit>
+      <trans-unit id="e9dcd4c14e7a18b81bb3e95330e2ca5b">
+        <source>You cannot add more than 10 product to your buy later !</source>
+        <target>You cannot add more than 10 product to your buy later !</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:116</note>
+      </trans-unit>
+      <trans-unit id="a944e549776d06ae00e03c4cbfabba18">
+        <source>This product is already present in your buy later !</source>
+        <target>This product is already present in your buy later !</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:117</note>
+      </trans-unit>
+      <trans-unit id="e4d413f06e4845d67dcfe5621bcedd9a">
+        <source>Number of item saved for later :</source>
+        <target>Number of item saved for later :</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:22</note>
+      </trans-unit>
+      <trans-unit id="fc1ff5390ecc7efd695f697f3d6b7e4b">
+        <source>product(s)</source>
+        <target>product(s)</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:24</note>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f">
+        <source>Product</source>
+        <target>Product</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="b5a7adde1af5c87d7fd797b6245c2a39">
+        <source>Description</source>
+        <target>Beschreibung</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="03060ecb868c620ab4a629b75eb066a6">
+        <source>Availibility</source>
+        <target>Availibility</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2">
+        <source>Unit price</source>
+        <target>Unit price</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="004bf6c9a40003140292e97330236c53">
+        <source>Action</source>
+        <target>Action</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="399fcd150d113070d69447f1f153dd24">
+        <source>Ref :</source>
+        <target>Ref :</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="fcebe56087b9373f15514831184fa572">
+        <source>In stock</source>
+        <target>In stock</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="b55197a49e8c4cd8c314bc2aa39d6feb">
+        <source>Out of stock</source>
+        <target>Out of stock</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Löschen</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayShoppingCart.tpl:96</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Speichern</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:186</note>
+      </trans-unit>
+      <trans-unit id="4749a4b32ffdaaedd33ca793094a2b62">
+        <source>Main color</source>
+        <target>Main color</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="d80f7984b71bf2da0a4fdcca1f6edc55">
+        <source>Choose the category text block color</source>
+        <target>Choose the category text block color</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:82</note>
+      </trans-unit>
+      <trans-unit id="1ecaa454e875ae6173980d332ea28f59">
+        <source>Default text color</source>
+        <target>Default text color</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:90</note>
+      </trans-unit>
+      <trans-unit id="b43ebfaa1b2c29008ca4fafa9ab2e64e">
+        <source>Slider title color</source>
+        <target>Slider title color</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:113</note>
+      </trans-unit>
+      <trans-unit id="f35b2d86c0f5801c0ac24045ca706fc5">
+        <source>Slider text color</source>
+        <target>Slider text color</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:121</note>
+      </trans-unit>
+      <trans-unit id="9c151ad73b039a518584d117100f770b">
+        <source>Primary font</source>
+        <target>Primary font</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:144</note>
+      </trans-unit>
+      <trans-unit id="6fd11918b1c399545970904790b27ec3">
+        <source>Secondary font</source>
+        <target>Secondary font</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:158</note>
+      </trans-unit>
+      <trans-unit id="222bbb2d06d1c9552ea2a5c0d93bc7c9">
+        <source>Theme Configurator</source>
+        <target>Theme Configurator</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:40</note>
+      </trans-unit>
+      <trans-unit id="24168c2b82ac11553936fa0440e4459f">
+        <source>Buttons, links, some texts, etc...</source>
+        <target>Buttons, links, some texts, etc...</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="b15f3b97ef0d474c366435f27da623c2">
+        <source>Buttons style</source>
+        <target>Buttons style</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="bef2481eda40bd121482f1814d72314f">
+        <source>Rounded</source>
+        <target>Rounded</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="606b51cc1c9d0b4af394419a22f2ff1f">
+        <source>Outline</source>
+        <target>Outline</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="32d4760f2a78c585c377b24533317264">
+        <source>Custom text color</source>
+        <target>Custom text color</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:99</note>
+      </trans-unit>
+      <trans-unit id="7be485188591f9b5c062db74ad5d5cbd">
+        <source>Slider colors</source>
+        <target>Slider colors</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:109</note>
+      </trans-unit>
+      <trans-unit id="c7b4908cd96ff24f0e4de589482203d4">
+        <source>Opacity filter</source>
+        <target>Opacity filter</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:133</note>
+      </trans-unit>
+      <trans-unit id="9d6052b7285708bc9d90462d3e6b971b">
+        <source>Choose the fonts</source>
+        <target>Choose the fonts</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:140</note>
+      </trans-unit>
+      <trans-unit id="70cfeb2c8a7c4ebd5e0eb0ff424205c0">
+        <source>Reset settings to default</source>
+        <target>Reset settings to default</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:175</note>
+      </trans-unit>
+      <trans-unit id="9639e32cab248434a17ab32237cb3b71">
+        <source>Apply</source>
+        <target>Apply</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:181</note>
+      </trans-unit>
+      <trans-unit id="729a51874fe901b092899e9e8b31c97a">
+        <source>Are you sure?</source>
+        <target>Are you sure?</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:183</note>
+      </trans-unit>
+      <trans-unit id="ea4788705e6873b424c65e91c2846b19">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/hook/displayFooter.tpl:185</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayCartExtraProductActions.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="ca7fd34a31b38300d0b767b04296bcd9">
+        <source>Save for later</source>
+        <target>Save for later</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/buylater/views/templates/hook/displayCartExtraProductActions.tpl:42</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/js_1-7.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="4b055913d79776d00783c6fb295655bf">
+        <source>Your email is already in our database.</source>
+        <target>Your email is already in our database.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/js_1-7.tpl:21</note>
+      </trans-unit>
+      <trans-unit id="1a6586aba2e8687ed4802675665d4581">
+        <source>You did not enter a proper email.</source>
+        <target>You did not enter a proper email.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/js_1-7.tpl:22</note>
+      </trans-unit>
+      <trans-unit id="2d8453e70b5e150e4a9b1a7f0a67e51d">
+        <source>You will now receive our newsletters!</source>
+        <target>You will now receive our newsletters!</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/js_1-7.tpl:23</note>
+      </trans-unit>
+      <trans-unit id="d5c4aeb4d33f41766d473288a8d590a3">
+        <source>Unknown error. Please try again.</source>
+        <target>Unknown error. Please try again.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/js_1-7.tpl:24</note>
+      </trans-unit>
+      <trans-unit id="a538826cf9ffad2bf8bb690828b2f23c">
+        <source>Registration Failed</source>
+        <target>Registration Failed</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/js_1-7.tpl:25</note>
+      </trans-unit>
+      <trans-unit id="498cd895eb5a102c5aeb977e2b928dee">
+        <source>Thank you!</source>
+        <target>Thank you!</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/js_1-7.tpl:26</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/display-footer-noimg.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="04176f095283bc729f1e3926967e7034">
+        <source>Firstname</source>
+        <target>Firstname</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/display-footer-noimg.tpl:16</note>
+      </trans-unit>
+      <trans-unit id="dff4bf10409100d989495c6d5486035e">
+        <source>Lastname</source>
+        <target>Lastname</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/display-footer-noimg.tpl:17</note>
+      </trans-unit>
+      <trans-unit id="627661c621eab1b7b298abc47d1a250d">
+        <source>Man</source>
+        <target>Man</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/display-footer-noimg.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="5276343758bbfb9e0a374c9dd2fa6ce7">
+        <source>Woman</source>
+        <target>Woman</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/popnewsletter/views/templates/hook/display-footer-noimg.tpl:37</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="c52c66245b091ac975abb0d1524255d3">
+        <source>We call you back</source>
+        <target>We call you back</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:3</note>
+      </trans-unit>
+      <trans-unit id="9120dbcce3c77c105623466b6c348621">
+        <source>Request sent !</source>
+        <target>Request sent !</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:7</note>
+      </trans-unit>
+      <trans-unit id="9e3da8a868b8b3ed9d5e976a4d1f5caa">
+        <source>Please enter your phone number</source>
+        <target>Please enter your phone number</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:9</note>
+      </trans-unit>
+      <trans-unit id="6e858ec9160551d1720c748c432b87ee">
+        <source>we remind you</source>
+        <target>we remind you</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:9</note>
+      </trans-unit>
+      <trans-unit id="08284eb71d76fc15e986d4c078d23b88">
+        <source>less than 3 hours</source>
+        <target>less than 3 hours</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:9</note>
+      </trans-unit>
+      <trans-unit id="b2ee912b91d69b435159c7c3f6df7f5f">
+        <source>Number</source>
+        <target>Number</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:13</note>
+      </trans-unit>
+      <trans-unit id="8f497c1a3d15af9e0c215019f26b887d">
+        <source>Delay</source>
+        <target>Delay</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:18</note>
+      </trans-unit>
+      <trans-unit id="73cdddd7730abfc13a55efb9f5685a3b">
+        <source>hours</source>
+        <target>hours</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:21</note>
+      </trans-unit>
+      <trans-unit id="44fdec47036f482b68b748f9d786801b">
+        <source>days</source>
+        <target>days</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:22</note>
+      </trans-unit>
+      <trans-unit id="172a8327fcd3685ab3c0f740d031da09">
+        <source>week</source>
+        <target>week</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:23</note>
+      </trans-unit>
+      <trans-unit id="e03f5c8da02dbb3a19ad99e3acb11263">
+        <source>Callback Me</source>
+        <target>Callback Me</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/webcallback/tpl/block.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="b98cb8b5322900bc89e467af98c5e277">
+        <source>Choose the template's main color</source>
+        <target>Choose the template's main color</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:21</note>
+      </trans-unit>
+      <trans-unit id="dcca5b0f104ef1621edb3bac2f01723b">
+        <source>Buttons, links, some texts, etc.</source>
+        <target>Buttons, links, some texts, etc.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="94d803cae7d5f97a09ede00eb4443282">
+        <source>Choose the button styles</source>
+        <target>Choose the button styles</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="c5fb1ba161f6482000efc2e32692b849">
+        <source>Outline buttons</source>
+        <target>Outline buttons</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="7469a286259799e5b37e5db9296f00b3">
+        <source>YES</source>
+        <target>YES</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:172</note>
+      </trans-unit>
+      <trans-unit id="c2f3f489a00553e7a01d369c103c7251">
+        <source>NO</source>
+        <target>NO</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:175</note>
+      </trans-unit>
+      <trans-unit id="697fe32ff0bd9b25b9505f611667ecc7">
+        <source>Rounded buttons</source>
+        <target>Rounded buttons</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:80</note>
+      </trans-unit>
+      <trans-unit id="0cf009a959c6e91b4c779dc323bf667b">
+        <source>Custom category text color</source>
+        <target>Custom category text color</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:133</note>
+      </trans-unit>
+      <trans-unit id="d2aa1494b1bcfc1353eeeb62ef6ec6f7">
+        <source>This color will be used for text block category if the default color is disabled</source>
+        <target>This color will be used for text block category if the default color is disabled</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:142</note>
+      </trans-unit>
+      <trans-unit id="7edef1875bfb9f429ede0edde57fccc5">
+        <source>Configure the image slider (if enabled)</source>
+        <target>Configure the image slider (if enabled)</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:157</note>
+      </trans-unit>
+      <trans-unit id="278e9f587779331b543827095978cb87">
+        <source>Slider opacity</source>
+        <target>Slider opacity</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:165</note>
+      </trans-unit>
+      <trans-unit id="b573e0148784c32489c6ceb763d17887">
+        <source>Choose the font</source>
+        <target>Choose the font</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:225</note>
+      </trans-unit>
+      <trans-unit id="0c041749806a6698164a409862214e21">
+        <source>Change the logo position</source>
+        <target>Change the logo position</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:272</note>
+      </trans-unit>
+      <trans-unit id="f681aa28bb0b8a1bb24ac594228d818e">
+        <source><![CDATA[If you want to change the posision of your logo you need to go to Design -> Positions and edit the theme configurator module's position]]></source>
+        <target><![CDATA[If you want to change the posision of your logo you need to go to Design -> Positions and edit the theme configurator module's position]]></target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/configuration.tpl:275</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/hookDisplayAdminAfterHeader.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="8891eeada48ac6ccc12fb92547229432">
+        <source>Change colors and typography</source>
+        <target>Change colors and typography</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/hookDisplayAdminAfterHeader.tpl:18</note>
+      </trans-unit>
+      <trans-unit id="a210115ca2cb37c7ea43fa17a768bc2f">
+        <source>Use the Theme configurator module to customize the main graphic elements of your website : colors, buttons, typography</source>
+        <target>Use the Theme configurator module to customize the main graphic elements of your website : colors, buttons, typography</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/hookDisplayAdminAfterHeader.tpl:26</note>
+      </trans-unit>
+      <trans-unit id="82fb0558ff2af9bdae555235bc4eb364">
+        <source>Live Edit</source>
+        <target>Live Edit</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/views/templates/admin/hookDisplayAdminAfterHeader.tpl:30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/vendor/ps_colorpicker/views/template/ps_colorpicker.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="e36908f2ff76d97280227110c42ec692">
+        <source>My colors</source>
+        <target>My colors</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/dependencies/modules/ps_themeconfigurator/vendor/ps_colorpicker/views/template/ps_colorpicker.tpl:44</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

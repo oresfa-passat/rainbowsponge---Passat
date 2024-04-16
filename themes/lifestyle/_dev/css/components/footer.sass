@@ -1,0 +1,279 @@
+// FOOTER
+
+#footer
+	.footer-reassurance
+		background: $gray-lighter
+	
+	.footer-container
+		padding-top: $medium-space
+		overflow: hidden
+		.container
+			margin-top: $large-space
+			&:first-child
+				margin-top: 0
+			
+		.headings, h3
+			margin-bottom: $small-space
+			@include media-breakpoint-down(sm)
+				margin-bottom: 0
+				margin-left: 25px
+			
+		.title
+			@include media-breakpoint-down(sm)
+				padding: $small-space 0
+				border-bottom: 1px solid $gray-lighter
+				cursor: pointer
+			
+		.links
+			a
+				font-size: $font-size-xs
+			
+		li
+			margin-bottom: $extra-small-space
+			a
+				font-family: $primary-font
+				color: $gray-dark
+				line-height: 20px
+			
+		.links
+			.collapse
+				display: inherit
+			
+		.collapse-icons
+			@include media-breakpoint-down(sm)
+				top: 12px
+				left: 0
+				margin-left: $small-space
+
+	#_desktop_language_selector, 
+	#_desktop_currency_selector
+		padding-right: 0
+		@include media-breakpoint-down(md)
+			text-align: center
+			clear: both
+			width: 100%
+			max-width: 200px
+			margin: auto
+		
+		.currency-selector,
+		.language-selector-wrapper
+			float: right
+			@include media-breakpoint-down(md)
+				float: none
+			
+			&.dropdown, .dropdown
+				margin: $small-space 0 $small-space 15px
+				@include media-breakpoint-down(md)
+					margin-left: 0
+			
+			a
+				padding: 0
+
+	.myaccount-info
+		.headings
+			a
+				color: $gray-dark
+				font-size: $font-size-sm
+
+		.account-list a
+			color: $gray-dark
+		
+	#custom-text
+		background: none
+		border-radius: 0
+		margin: $small-space 0
+		padding: 0 15px
+		text-align: left
+		@include media-breakpoint-down(md)
+			margin: $small-space 0
+		
+		h3
+			font-family: $primary-font
+			color: $gray-dark
+			font-weight: 700
+			font-size: $font-size-sm
+			text-transform: uppercase
+			line-height: 19px
+			@include media-breakpoint-down(sm)
+				margin-left: 0
+			
+		p
+			font-family: $primary-font
+			color: $gray-dark
+			line-height: 20px
+			font-size: $font-size-xs
+			.dark
+				color: $gray
+				font-weight: 400
+
+	.block-social
+		margin-top: 15px
+		li
+			background: $gray
+			width: 24px
+			height: 23px
+			border-radius: 50%
+			display: inline-block
+			margin: 2px
+			cursor: pointer
+			@include media-breakpoint-down(sm)
+				width: 36px
+				height: 35px
+			
+			&:before
+				font-family: $fa-font
+				font-size: $font-size-sm
+				line-height: 24px
+				color: $white
+				display: block
+				text-align: center
+				@include media-breakpoint-down(sm)
+					line-height: 36px
+					font-size: $font-size-xlg
+				
+			&.facebook
+				&:hover
+					background: $social-facebook
+				&:before
+					content: "\f09a"
+				
+			&.twitter
+				&:hover
+					background: $social-twitter
+				&:before
+					content: "\f099"
+				
+			&.rss
+				&:hover
+					background: $social-rss
+				&:before
+					content: "\f09e"
+				
+			&.youtube
+				&:hover
+					background: $social-youtube
+				&:before
+					content: "\f167"
+				
+			&.googleplus
+				&:hover
+					background: $social-googleplus
+				&:before
+					content: "\f0d5"
+					
+			&.pinterest
+				&:hover
+					background: $social-pinterest
+				&:before
+					content: "\f231"
+				
+			&.vimeo
+				&:hover
+					background: $social-vimeo
+				&:before
+					content: "\f27d"
+				
+			&.instagram
+				&:hover
+					background: $social-instagram
+				&:before
+					content: "\f16d"
+				
+			a
+				display: block
+				position: relative
+				top: -24px
+				height: 100%
+				white-space: nowrap
+				text-indent: 100%
+				overflow: hidden
+				&:hover
+					color: transparent
+
+	.block-contact
+		color: $gray
+		@include media-breakpoint-down(md)
+			margin: 0
+			width: 100%
+		#footer_contact
+			margin-top: $small-space
+
+	.copyright
+		padding: 15px 0
+		p
+			margin: 3px 0
+
+	.banner
+		margin: 0 -15px 0 15px
+		clear: both
+		display: block
+	
+	.featured-products
+		margin-top: $small-space
+		.slick-arrow
+			top: -35px
+		
+	.facet, 
+	.block-categories,
+	.search-widget
+		margin: 0 15px
+		@include media-breakpoint-down(sm)
+			margin: 0 15px 0 0
+		
+	.user-info
+		clear: both
+	
+	.search-widget
+		padding: 15px 0
+	
+	.blockcart
+		.header
+			.blockcart-details
+				&:before, &:after
+					display: none
+
+	.footer-before
+		.block-social
+			margin-top: $extra-small-space
+			padding: 0
+			@include media-breakpoint-down(md)
+				text-align: center
+			
+			ul
+				float: right
+				@include media-breakpoint-down(md)
+					float: none
+					height: 30px
+					margin: 0
+
+	// Responsive part
+
+	@include media-breakpoint-down(sm)
+		.footer-container
+			.links
+				.title[aria-expanded="true"] .collapse-icons
+					.add
+						display: none
+					
+					.remove
+						display: block
+					
+				.navbar-toggler
+					display: inline-block
+					padding: 0
+				
+				.collapse
+					display: none
+					&.in
+						display: block
+					
+				ul
+					background-color: $gray-lighter
+					margin-bottom: 0
+					> li
+						padding: $small-space
+						border-bottom: 1px solid $white
+						a
+							color: $gray-darker
+							font-size: $font-size-md
+						

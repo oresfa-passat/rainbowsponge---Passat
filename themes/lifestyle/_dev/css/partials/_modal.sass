@@ -1,0 +1,21 @@
+.modal
+	background: rgba(0, 0, 0, 0.33)
+	.modal-dialog
+		width: 100%
+		max-width: 1024px
+		min-height: 300px
+		height: auto
+		background: $white
+		box-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.5)
+		@include media-breakpoint-down(md)
+			width: 85% !important
+		
+		@include media-breakpoint-down(sm)
+			width: 95% !important
+		
+		.modal-content
+			background: $white
+			border-radius: $border-radius
+			border: none
+			.fa-times
+				font-size: $font-size-lg !important

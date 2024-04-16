@@ -1,0 +1,581 @@
+// Columns
+
+// Override modules on columns
+
+#left-column, #right-column
+	margin-bottom: $medium-space
+	@include media-breakpoint-down(sm)
+		width: 100%
+	
+	.block-social, .block_newsletter, .myaccount-info
+		float: none !important
+		width: 100% !important
+	
+	.block-social
+		margin-top: $small-space
+	
+	#search_widget, .featured-products
+		margin: $large-space 0 0
+	
+	#search_widget
+		input
+			min-width: inherit
+		
+	.thumbnail-container
+		margin-bottom: 130px
+	
+	.featured-products
+		@include media-breakpoint-down(sm)
+			margin-top: $medium-space !important
+		
+		.products-section-title
+			margin-bottom: $small-space
+			line-height: 20px
+			font-size: $font-size-sm
+			display: block
+			text-transform: uppercase
+			color: $gray-darker
+			float: none
+		.all-product-link
+			float: left
+			margin: 0 0 $small-space 0
+			text-transform: none !important
+			display: block
+			color: $gray-dark
+			float: none
+		
+		.product-miniature
+			margin: 0 0 35px 0
+			@include media-breakpoint-down(md)
+				margin: 15px $small-space 35px
+				width: 43%
+		
+	.product-miniature
+		margin-bottom: 0px !important
+		@include media-breakpoint-between(sm, md)
+			width: 100%
+		
+		@include media-breakpoint-down(sm)
+			width: 50%
+		
+	.discount-percentage
+		padding-top: 0
+		padding-bottom: 0
+		margin-top: 6px
+		line-height: 28px
+	
+	#_desktop_language_selector, #_desktop_currency_selector
+		float: none !important
+		width: 100%
+	
+	.block_newsletter
+		@include search-box
+		min-width: inherit
+		p, div
+			float: none !important
+			width: 100% !important
+			padding: 0
+			margin: 0
+		
+		.head-subscription
+			margin-bottom: $medium-space
+		
+		.btn-icon
+			&::before
+				right: -10px
+			
+	#custom-text
+		padding: 25px 15px
+
+	.contact-rich
+		padding: 0 15px
+
+	.user-info
+		margin: $small-space 0
+	
+	.main-menu
+		.sub-menu
+			padding: 0 15px
+
+	.blockcart
+		margin: $large-space 0 $extra-small-space
+		.header
+			.blockcart-details
+				&:before, &:after
+					display: none
+
+	.product-miniature
+		width: 100% !important
+
+#left-column
+	#custom-text
+		text-align: left
+
+
+#right-column
+	#custom-text
+		text-align: right
+
+
+// +/- on header module columns
+
+.collapse-icons
+	position: absolute
+	left: 0
+	top: 0
+	padding: 0
+	cursor: pointer
+	font-size: 0
+	margin-left: $large-space
+	z-index: 2
+	@include media-breakpoint-down(sm)
+		left: auto
+		right: 4px
+		top: 8px
+	
+	&[aria-expanded="true"]
+		.add, &:before
+			display: none
+		
+		.remove
+			display: block
+
+	.add,
+	.remove
+		font-size: $base-font-size !important
+		color: $gray-light
+		@include media-breakpoint-down(sm)
+			font-size: $font-size-xs !important
+		
+		&:hover
+			color: $brand-primary
+
+	.remove
+		display: none
+
+// Facets module
+
+#search_filters,
+#search_filters_brands,
+#search_filters_suppliers
+	background: $white
+	padding: 0
+	.facet
+		position: relative
+		margin-top: 15px
+		.facet-title, .facet-label
+			display: block
+			position: relative
+			padding: 15px 0 15px 55px
+			border-bottom: 1px solid $gray-light
+			margin-bottom: 0
+			@include media-breakpoint-down(sm)
+				padding-left: 0
+
+		.collapse-icons
+			margin-top: 15px
+			@include media-breakpoint-down(sm)
+				margin-top: 11px
+
+		ul
+			margin: $extra-small-space 0 0 $large-space
+			.facet-label
+				margin-bottom: 0
+				border: none
+				padding: 0
+				text-align: left
+				a
+					margin-top: $small-space
+					position: relative
+					top: 3px
+					color: $gray-dark
+					font-weight: 700
+					display: inline-block
+					font-size: $font-size-sm
+					.magnitude
+						color: $gray
+						font-size: $font-size-sm
+				.custom-checkbox
+					span
+						vertical-align: middle
+
+		.facet-colors
+			&.facet-colors-checkbox
+				display: inline-block
+			
+			&.facet-colors-radio
+				display: block
+			
+			a
+				&.checkbox-link
+					display: none !important
+				
+				&.radio-link
+					display: inline-block !important
+
+			.color,
+			.custom-checkbox input[type="checkbox"] + span.color
+				width: 25px
+				height: 25px
+				display: inline-block
+				margin: $extra-small-space
+				border: 1px solid rgba(0,0,0,0.2)
+				border-radius: 50%
+				cursor: pointer
+				background-size: contain
+
+			.facet-label
+				&.active,
+				&:hover
+					.color,
+					.custom-checkbox input[type="checkbox"] + span.color
+						border: 1px solid rgba(0,0,0,0.5)
+
+#search_filters_brands,
+#search_filters_suppliers
+	.facet
+		padding-top: 0
+		.facet-label
+			margin-bottom: $extra-small-space
+
+#search_filters
+	margin-top: $small-space
+	.clear-all-wrapper
+		margin: $medium-space 0 $extra-small-space
+
+#search_filters, #search_filter_controls
+	button
+		&.js-search-filters-clear-all
+			width: 100%
+			border: 1px dashed
+			margin-bottom: 0
+			@include media-breakpoint-down(sm)
+				width: auto
+
+#search_filters_wrapper
+	margin-bottom: $medium-space
+
+// Category Tree Block Module
+
+.block-categories
+	padding: 25px 0 $small-space
+	.category-top-menu
+		margin-bottom: 0
+		.headings
+			display: block
+			position: relative
+			padding: 0 0 $medium-space 55px
+			border-bottom: 1px solid $gray-light
+		
+	.category-sub-menu
+		margin: $medium-space 0 0 $large-space
+		ul
+			margin: $extra-small-space 0 0 25px
+		
+		.category-sub-link
+			font-size: $font-size-xs
+			color: $gray
+		
+		li
+			position: relative
+			&[data-depth="1"]
+				margin-bottom: $extra-small-space
+			
+		li[data-depth="0"] > a
+			font-weight: bold
+			width: 100%
+			display: inline-block
+			font-size: $font-size-xs
+			letter-spacing: 1px
+			line-height: 20px
+			font-size: $font-size-xs
+			padding-left: 15px
+		
+		li[data-depth="0"] .collapse-icons
+			margin-left: 0
+			.add,
+			.remove
+				font-size: 10px !important
+				margin-top: 4px
+			
+		
+		li:not([data-depth="0"]):not([data-depth="1"])
+			padding-left: $extra-small-space
+			&::before
+				content: "-"
+				margin-right: $extra-small-space
+				color: $gray
+			
+	a
+		color: $gray-dark
+	
+	.arrows
+		.arrow-right,
+		.arrow-down
+			font-size: 10px !important
+			color: $gray
+			cursor: pointer
+			margin-left: $extra-small-space
+			&:hover
+				color: $brand-primary
+			
+		.arrow-down
+			display: none
+		
+		&[aria-expanded="true"]
+			.arrow-right
+				display: none
+			
+			.arrow-down
+				display: inline-block
+
+// Central Column
+
+// Image & Description on top of category
+
+.block-category
+	min-height: 220px
+	margin-bottom: 25px
+	position: relative
+	padding: $medium-space 0 0
+	.block-description
+		text-align: center
+		margin: 0 70px
+		padding: $medium-space
+		h1
+			position: relative
+			z-index: 1
+		
+		#category-description
+			position: relative
+			z-index: 1
+			p,
+			strong
+				line-height: 21px
+				font-size: $font-size-md
+			p
+				margin-bottom: 0
+				&:first-child
+					margin-bottom: $medium-space
+
+	.category-cover
+		position: absolute
+		bottom: 0
+		img
+			position: relative
+			z-index: -1
+			width: 100%
+			height: 100%
+			filter: blur(1px)
+			-ms-filter: blur(1px)
+			-webkit-filter: blur(1px)
+			-moz-filter: blur(1px)
+			opacity: 0.6
+
+// Sort block
+
+#products
+	.products-select
+		display: flex
+		align-items: baseline
+		justify-content: space-between
+	
+	.up
+		margin-bottom: 16px
+		.btn-secondary
+			color: $gray
+			text-transform: inherit
+		
+	.products-selection
+		margin-bottom: $medium-space
+		.sort-by-row
+			display: flex
+			align-items: center
+			#search_filter_toggler
+				@include media-breakpoint-down(xs)
+					padding: 15px 35px
+				
+		.sort-by
+			white-space: normal
+			word-break: break-word
+			margin-right: -15px
+			margin-left: 15px
+			text-align: right
+		
+		.total-products
+			padding-top: $small-space
+		
+		.filter-button
+			.btn-secondary
+				padding: 12px 8px 11px
+			
+	.products-sort-order
+		> .select-title
+			padding: $small-space 15px
+			margin-left: 15px
+			border: 1px solid $gray-light
+			@include media-breakpoint-down(sm)
+				margin-left: 0
+		&.open
+			> .select-title
+				border: 1px solid $gray-dark
+		
+		.dropdown-menu
+			top: 38px !important
+			max-width: 269px
+			left: 30px
+			border-top: none !important
+			&:before, &:after
+				display: none
+
+	#js-active-search-filters
+		margin-bottom: $medium-space
+
+// List product
+
+#category
+	#products
+		margin-top: $medium-space
+		@include media-breakpoint-down(sm)
+			margin-left: 0 !important
+			margin-right: 0 !important
+		
+		.product-miniature
+			width: 30%
+			margin: 0 auto
+			@include media-breakpoint-down(md)
+				width: 40%
+			@include media-breakpoint-down(xs)
+				min-height: 310px
+
+			.discount-percentage
+				padding-top: $extra-small-space !important
+
+.facet-dropdown
+	padding: $small-space 15px
+	border: 1px solid $gray-light
+	margin: $small-space 0
+	&.open
+		border: 1px solid $gray-dark
+	
+	.dropdown-menu
+		top: 40px !important
+		min-width: 225px
+		left: -1px
+		border-top: none !important
+		&:before, &:after
+			display: none
+
+// Pagination
+
+.pagination
+	width: 100%
+	@include media-breakpoint-down(sm)
+		text-align: center
+	
+	> div:first-child
+		line-height: 40px
+	
+	.page-list
+		background: $white
+		margin-bottom: 0
+		@include media-breakpoint-down(sm)
+			margin-top: 15px
+		
+		li
+			display: inline
+			i
+				&.fa-chevron-left
+					padding-right: $extra-small-space
+				
+				&.fa-chevron-right
+					padding-left: $extra-small-space
+
+	.previous
+		float: left
+	
+	.next
+		float: right
+	
+	.disabled
+		color: $gray-darker
+	
+	.current a
+		color: $brand-primary
+		text-decoration: none
+
+.active_filters
+	margin-bottom: $large-space
+	.active-filter-title
+		display: inline
+		margin-right: $small-space
+	
+	ul
+		display: inline
+	
+	.filter-block
+		color: $gray-darker
+		padding: $small-space
+		display: inline-block
+		.close
+			color: $gray
+			opacity: 1
+			margin: 4px 0 0 6px
+
+// Advertising module
+
+.advertising-block
+	margin-bottom: 1.563rem
+	img
+		width: 100%
+
+// Responsive part
+
+@include media-breakpoint-down(md)
+	#search_filters .facet ul, 
+	#search_filters_brands .facet ul, 
+	#search_filters_suppliers .facet ul
+		margin-left: 0
+
+@include media-breakpoint-down(sm)
+	#category
+		#left-column
+			#search_filter_controls
+				text-align: center
+				button
+					margin: 0 $small-space
+			
+			#search_filters
+				border-top: 1px solid $gray-lighter
+				.facet
+					.title
+						cursor: pointer
+					
+					.title[aria-expanded="true"]
+						.collapse-icons
+							.add
+								display: none
+							.remove
+								display: block
+						
+					.collapse
+						display: none
+						&.in
+							display: block
+					
+					ul
+						margin: 0
+
+		#content-wrapper
+			width: 100%
+
+	#prices-drop #content-wrapper,
+	#new-products #content-wrapper,
+	#best-sales #content-wrapper
+		width: 100%
+
+@include media-breakpoint-down(xs)
+	button
+		&.js-search-filters-clear-all, &.ok
+			margin-top: $small-space !important
+			margin-bottom: $small-space !important

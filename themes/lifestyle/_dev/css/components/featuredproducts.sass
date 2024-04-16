@@ -1,0 +1,317 @@
+#products, .featured-products, .product-accessories, .product-miniature 
+	position: relative
+	.products-section-title
+		margin-bottom: $large-space
+		float: left
+		@include media-breakpoint-down(sm)
+			float: none !important
+			text-align: center
+			display: block
+		
+	.all-product-link
+		float: right
+		margin: $small-space 75px $small-space 0
+		@include media-breakpoint-down(sm)
+			float: none !important
+			text-align: center
+			display: block
+			margin: 0 0 25px
+		@include media-breakpoint-down(xs)
+			text-align: center
+		
+	.products
+		display: flex
+		flex-wrap: wrap
+		justify-content: flex-start
+		.slick-arrow
+			position: absolute
+			top: -53px
+			right: 0
+			border: none
+			font-size: 0
+			line-height: 0
+			display: block
+			width: 27px
+			height: 27px
+			padding: 0
+			cursor: pointer
+			color: transparent
+			border: 2px solid $gray-light
+			border-radius: 3px
+			outline: none
+			background: $white
+			-webkit-transform: none
+			-ms-transform: none
+			transform: none
+			@include media-breakpoint-down(xs)
+				display: none !important
+			
+			&::before
+				font-family: $fa-font
+				font-size: 8px
+				line-height: 10px
+				color: $gray-dark !important
+				text-shadow: 0 0 0 transparent
+				@include media-breakpoint-down(xs)
+					font-size: 6px
+				
+			
+			&.slick-prev
+				right: 35px
+				left: auto
+				@include media-breakpoint-down(xs)
+					right: 25px
+				
+				&::before
+					content: "\f053"
+				
+			
+			&.slick-next
+				&::before
+					content: "\f054"
+				
+			
+			&:hover
+				border: 2px solid $gray
+				&::before
+					color: $gray
+
+		.slick-track
+			height: inherit !important
+			
+		.product-miniature
+			position: relative
+			margin: 0 15px 65px
+			min-height: 365px
+			@include media-breakpoint-down(md)
+				width: 42%
+			@include media-breakpoint-down(sm)
+				margin: 0 auto
+				min-height: 210px
+			
+			.thumbnail-container
+				position: relative
+				width: 100%
+				background: $white
+				&:hover
+					.highlighted-informations
+						bottom: $small-space
+						&::after
+							opacity: 1
+						
+					.online-only, 
+					.pack
+						opacity: 1 !important
+					
+				.product-thumbnail
+					display: block
+					img
+						width: 100%
+					
+				.product-description
+					position: absolute
+					z-index: 1
+					background: $white
+					width: 100%
+					bottom: -35px
+					height: 45px
+					line-height: 45px
+					margin-top: $medium-space
+					padding-top: 15px
+					.product-miniature-info
+						float: left
+						width: 60%
+						@include media-breakpoint-down(md)
+							float: none
+							width: 100%
+						
+						.product-title
+							text-transform: capitalize
+							word-break: break-word
+							
+						.short-description
+							margin-bottom: $extra-small-space
+							height: 30px
+							> p, span, a
+								color: $gray
+							> p
+								overflow: hidden
+								white-space: nowrap
+								text-overflow: ellipsis
+							
+					.product-price-and-shipping
+						vertical-align: top
+						line-height: 13px
+						text-align: right
+						width: 40%
+						@include media-breakpoint-down(md)
+							float: none
+							width: 100%
+							text-align: left
+						
+						.regular-price
+							color: $gray
+							font-size: $font-size-sm
+							text-decoration: line-through
+							display: inline-block
+						
+						.price
+							font-size: $font-size-sm
+							color: $gray-darker
+							&.price-with-discount
+								font-size: $font-size-lg
+
+						.discount-percentage,
+						.discount-amount
+							padding-left: $extra-small-space							
+
+						
+				.product-flags .new,
+				.pack,
+				.online-only,
+				.on-sale,
+				.discount-percentage,
+				.discount-amount
+					display: block
+					position: absolute
+					top: 0
+					padding: $extra-small-space
+					color: $white
+					background: $ps_secondary
+					font-family: $primary-font
+					min-height: 25px
+					text-transform: uppercase
+					font-size: $font-size-sm
+					@include media-breakpoint-down(sm)
+						font-size: $font-size-xs
+					&.discount-percentage,
+					&.discount-amount
+						z-index: 2
+						right: 0
+					
+					&.on-sale
+						text-align: center
+						left: initial
+						right: 0
+						top: 0
+					
+					&.online-only, 
+					&.pack
+						opacity: 0
+						transition: opacity .3s
+					
+					&.online-only
+						z-index: 2
+						bottom: -65px
+						top: auto
+					
+					&.pack
+						top: 70px
+					
+				.discount
+					display: none
+					text-align: center
+				
+				.highlighted-informations
+					position: absolute
+					bottom: -25px
+					z-index: 0
+					background: $brand-primary
+					text-align: center
+					width: 100%
+					height: 33px
+					transition: bottom .3s
+					a
+						color: $white
+						display: block
+						padding: $extra-small-space
+					
+		&.featured
+			.product-miniature
+				margin: 0 15px $medium-space !important
+				@include media-breakpoint-down(sm)
+					min-height: 270px
+				
+				.product-miniature-info
+					float: none !important
+					width: 100% !important
+				
+				.product-price-and-shipping
+					text-align: left !important
+					width: 100% !important
+				
+				.product-description
+					.product-title, .product-price-and-shipping
+						float: none !important
+						width: 100% !important
+						
+					.short-description
+						display: block !important
+					
+				.product-flags .new,
+				.online-only,
+				.pack,
+				.on-sale,
+				.discount-percentage,
+				.discount-amount
+					font-size: $font-size-xs
+
+				.discount-percentage,
+				.discount-amount
+					padding: 4px 5px
+				
+		&.products-slider
+			.product-miniature
+				.product-miniature-info
+					float: left
+					width: 60%
+					@include media-breakpoint-down(md)
+						float: none
+						width: 100%
+					
+				.product-price-and-shipping
+					text-align: right
+					width: 30%
+					@include media-breakpoint-down(md)
+						float: none
+						width: 100%
+						text-align: left
+					
+					span.aeuc_from_label
+						display: inline-block
+					
+					.price
+						padding-left: $extra-small-space
+
+	.comments_note
+		text-align: center
+		color: $gray
+	
+	
+	.count
+		color: $gray-dark
+		font-weight: 700
+		position: relative
+		bottom: 8px
+
+.product-accessories
+	.slick-arrow
+		@include media-breakpoint-down(xs)
+			top: -28px !important
+	
+.featured-products
+	margin: 0 15px $small-space
+	clear: both	
+	&:first-child
+		margin-top: 65px
+		@include media-breakpoint-down(xs)
+			margin-top: $medium-space
+
+#new-products,
+#best-sales,
+#prices-drop
+	.product-miniature
+		width: 29%
+		@include media-breakpoint-down(md)
+			width: 42%
+	

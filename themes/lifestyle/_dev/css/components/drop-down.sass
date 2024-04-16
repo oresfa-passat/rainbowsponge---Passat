@@ -1,0 +1,102 @@
+.dropdown
+	color: $gray-dark
+	.expand-more
+		color: $gray-darker
+		cursor: pointer
+		padding-right: 5px
+		user-select: none
+	
+	i
+		&.expand-more
+			position: relative
+			top: 1px
+
+	.select-title
+		display: inline-block
+		margin-left: 6px
+		width: 100%
+		color: $gray-dark
+		background: $white
+		cursor: pointer
+		i
+			position: relative
+			top: 3px
+	
+	.select-list
+		display: block
+		color: $gray-dark
+		padding: $extra-small-space 15px
+		border-top: 1px solid $white
+		border-bottom: 1px solid $white
+		&:hover, &:focus
+			background: $gray-lighter
+			text-decoration: none
+			border-top: 1px solid $gray-light
+			border-bottom: 1px solid $gray-light
+
+	.dropdown-menu
+		border-radius:  0 0 4px 4px
+		border: 1px solid $gray-light
+		width: 100%
+		background: $white
+		top: 30px
+		left: -20px 
+		&:before, &:after
+			bottom: 100%
+			left: 25%
+			border: solid transparent
+			content: " "
+			height: 0
+			width: 0
+			position: absolute
+			pointer-events: none
+		
+		&:after
+			border-bottom-color: $white
+			border-width: 10px
+			margin-left: -$small-space
+		
+		&:before
+			border-bottom-color: rgba(0, 0, 0, 0.2)
+			border-width: 11px
+			margin-left: -11px
+		
+		li
+			padding-left: $small-space
+		
+		@include media-breakpoint-down(md) 
+			&:before, &:after
+				left: 50%
+
+	.list-mobile
+		border: 1px solid $gray-light
+		width: 100%
+		background: $white
+		height: 42px
+		&:after
+			content: "\f0d7"
+			font-family: $fa-font
+			font-size: $font-size-lg
+			color: $gray-light
+		.link
+			padding-left: $small-space
+			height: 100%
+			width: 90%
+		
+	.active
+		max-height: 200px
+		overflow-y: hidden
+		visibility: visible
+	
+	select
+		-moz-appearance: none
+		-webkit-appearance: none
+		-ms-appearance: none
+		border: 0 none
+		outline: 0 none
+		color: $gray-darker
+		background: $white
+  	
+.dropdown-item:focus,
+.dropdown-item:hover
+	background: none

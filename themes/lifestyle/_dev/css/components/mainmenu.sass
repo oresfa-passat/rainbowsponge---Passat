@@ -1,0 +1,119 @@
+.main-menu
+	position: relative
+	margin-top: 15px
+	@include media-breakpoint-down(sm)
+		margin-top: 0
+	
+	.menu
+		margin: auto
+		max-width: 1080px
+		> ul
+			> li
+				display: inline-block
+				line-height: 28px
+				margin-left: $large-space
+				padding: $extra-small-space 0
+				&:first-child
+					margin-left: 0
+
+	#_desktop_top_menu
+		#top-menu
+			border-top: 2px solid $gray-lighter
+			border-bottom: 2px solid $gray-lighter
+			margin: 0
+			padding: 0
+			@include media-breakpoint-between(md,lg)
+				padding: $small-space 15px
+
+			&[data-depth="0"]
+				li
+					&:hover
+						.sub-menu
+							display: block !important
+			
+			a[data-depth="0"]
+				text-transform: uppercase
+				padding: 0
+				&:first-child
+					padding-left: 0
+				
+				&.internal-link
+					&:after
+						content: "\f078"
+						font-family: $fa-font
+						font-size: 8px !important
+						position: relative
+						top: -2px
+						left: 7px
+						color: $gray
+					
+					&:hover, &:focus
+						&:after
+							content: "\f077"
+							font-family: $fa-font
+
+			a:not([data-depth="0"])
+				display: block
+				padding: $small-space
+				font-weight: 400
+			
+			.top-menu
+				width: 100%
+				max-width: 1080px
+				&[data-depth="1"]
+					margin: $extra-small-space auto 15px
+					font-weight: bold
+				
+				a.dropdown-submenu
+					color: $gray-darker
+					text-transform: uppercase
+				
+				a[data-depth="1"]
+					padding: 0 0 $extra-small-space 0
+					font-size: $font-size-sm
+					span
+						font-size: $font-size-sm
+					
+				a[data-depth="2"], a[data-depth="2"] span
+					padding: 0
+					color: $gray
+					font-size: $font-size-xs
+					line-height: 24px
+					span
+						font-size: $font-size-xs
+						line-height: 24px
+						color: $gray
+
+			.collapse
+				display: inherit
+			
+			.sub-menu
+				margin: 0 auto
+				border: none
+				box-shadow: 0 2px 8px 0 rgba(0,0,0,.3)
+				max-width: 100%
+				min-width: 150px
+				z-index: 18
+				position: absolute
+				top: 40px !important
+				background: $white
+				display: none
+				padding: $small-space
+				&.collapse
+					display: none
+				
+				ul[data-depth="1"]
+					margin: 0
+					> li
+						padding: $extra-small-space $small-space
+
+				ul[data-depth="2"] 
+					> li
+						padding-left: $small-space
+
+@include media-breakpoint-down(sm)
+	.top-menu
+		&[data-depth="1"]
+			margin-left: 15px
+		&[data-depth="2"]
+			margin-left: 30px

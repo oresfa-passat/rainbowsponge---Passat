@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/themes/lifestyle/modules/ps_checkpayment/views/templates/hook/infos.tpl" source-language="ru-RU" target-language="ru-RU" datatype="plaintext">
+    <body>
+      <trans-unit id="14e41f4cfd99b10766cc15676d8cda66">
+        <source>This module allows you to accept payments by check.</source>
+        <target>Этот модуль позволяет вам принимать платежи чеком.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_checkpayment/views/templates/hook/infos.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="22df5428ca8a4d0f5ec081d4815c86f6">
+        <source>If the client chooses this payment method, the order status will change to 'Waiting for payment'.</source>
+        <target>Если клиент выберет этот способ оплаты, то статус заказа изменится на "Ожидание оплаты".</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_checkpayment/views/templates/hook/infos.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="8c88bbf5712292b26e2a6bbeb0a7b5c4">
+        <source>You will need to manually confirm the order as soon as you receive a check.</source>
+        <target>Поэтому Вам будет необходимо вручную подтвердить заказ, как только Вы получите чек.</target>
+        <note>Context:
+File: /var/www/html/themes/lifestyle/modules/ps_checkpayment/views/templates/hook/infos.tpl:36</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

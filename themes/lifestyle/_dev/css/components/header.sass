@@ -1,0 +1,142 @@
+#header
+	@include media-breakpoint-down(sm)
+		padding-top: $small-space
+
+	.hooksHeader
+		margin: $extra-small-space 0
+	
+	.shop-logo
+		margin: 7px 0
+		.logo
+			max-width: 100%
+			max-height: 100px
+
+	.fa
+		font-size: 24px !important
+	
+	.right-nav
+		display: flex
+		flex-wrap: nowrap
+		justify-content: flex-end
+	
+	#contact-link
+		margin: $extra-small-space 0 $extra-small-space $medium-space
+	
+	.currency-selector
+		margin: $extra-small-space 0 $extra-small-space $medium-space
+		white-space: nowrap
+	
+	.user-info
+		margin: $extra-small-space 0 $extra-small-space $medium-space
+		text-align: right
+		white-space: nowrap
+		@include media-breakpoint-down(sm)
+			margin: 15px $small-space
+		
+		.account
+			margin-left: $small-space
+		
+	.language-selector
+		margin: $extra-small-space 0 $extra-small-space $medium-space
+		white-space: nowrap
+	
+	.blockcart
+		margin: $extra-small-space 0 $extra-small-space $medium-space
+		@include media-breakpoint-down(sm)
+			margin: 15px $small-space
+		.remove-from-cart
+			i
+				font-size: $font-size-xs !important
+	
+	.dropdown-item
+		padding-left: 0
+
+	.sub-menu
+		&.fadeIn
+			animation-duration: 0.3s
+	
+	.top-menu-link
+		margin-left: $medium-space
+	
+	.header-nav
+		.row
+			padding: $extra-small-space 0
+		
+		#menu-icon
+			vertical-align: middle
+			cursor: pointer
+			i
+				line-height: 50px
+				font-size: 25px !important
+
+	.header-top
+		padding: 0
+		@include media-breakpoint-down(sm)
+			background: $gray-lighter
+		
+		> .container
+			position: relative
+		
+		#contact-link
+			padding: 0 0 0 $small-space
+			@include media-breakpoint-down(sm)
+				margin-left: 0
+				padding-left: 0
+
+	.popover
+		font-family: inherit
+
+	.block-categories
+		padding-top: $small-space
+		.category-top-menu
+			.headings
+				padding: $extra-small-space 0 15px 55px
+			
+			.collapse-icons
+				top: 3px
+
+	.blockcart-product-detail
+		.remove-from-cart
+			i
+				font-size: 11px !important
+				color: $gray
+
+// Responsive part
+
+@include media-breakpoint-down(sm)
+	#header
+
+		.top-logo
+			display: flex
+			display: -webkit-box
+			display: -webkit-flex
+			display: -ms-flexbox
+			display: flex
+			align-items: center
+			justify-content: flex-start
+			min-height: 50px
+			padding-left: $medium-space
+			margin: 0 auto
+			h1
+				margin: 0
+			a
+				img
+					max-height: 50px
+					max-width: 100%
+		
+		#mobile_top_menu_wrapper
+			padding: $small-space 15px
+			.top-menu
+				li
+					position: relative
+				
+				.collapse-icons
+					i
+						font-size: $font-size-md !important
+					
+					.top-menu
+						padding-left: 15px
+					
+		.currency-selector, .language-selector
+			margin-left: 0
+		

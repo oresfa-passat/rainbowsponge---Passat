@@ -1,0 +1,48 @@
+#layout-error {
+	text-align: center;
+	margin: 50px auto 0;
+}
+
+#layout-error .logo {
+	margin: 0 0 60px 0;
+	text-align: center; 
+}
+#layout-error h1 {
+	font-family: 'Merriweather', sans-serif;
+	color: #046e8f;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 59px;
+	padding: 0 0 15px 0;
+}
+
+#layout-error h2 {
+	font: 20px sans-serif;
+	color: #333;
+	padding: 0 0 14px 0;
+	margin: 0 0 19px 0; 
+}
+
+#layout-error .page-content {
+	font: 16px sans-serif;
+	color: #555454;
+	text-align: center; 
+}
+
+
+@media (max-width: 992px) {
+	#layout-error {
+		width: 500px; } 
+}
+@media (min-width: 1200px) {
+	#layout-error {
+		width: 800px;
+		padding: 50px; 
+	} 
+}
+@media only screen and (min-width: 1200px) {
+	#layout-error {
+		padding-left: 0;
+		padding-right: 0; 
+	} 
+}

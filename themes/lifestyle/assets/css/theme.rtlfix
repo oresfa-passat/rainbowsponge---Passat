@@ -1,0 +1,91 @@
+#header .shop-logo,
+.main-menu .menu > ul > li,
+.form-control-select.form-control-product,
+.product-additional-info,
+#wrapper .breadcrumb li {float: right;}
+
+body,
+form input, 
+.select-title,
+.product-title,
+.short-description,
+.block-categories .category-sub-menu li[data-depth="0"] > a,
+#wrapper .breadcrumb,
+.modal, 
+.page-content.page-cms {text-align: right;}
+
+#header .right-nav {justify-content: flex-start;}
+
+#header .user-info .account {margin-right: 0; margin-left: 10px}
+
+#header .search-widget {margin-right: 20px;}
+
+.main-menu #_desktop_top_menu #top-menu a[data-depth="0"].internal-link:after{right: inherit; left: 7px}
+
+.slick-next {left: inherit; right: 0}
+
+#products .products .slick-arrow.slick-prev, 
+.featured-products .products .slick-arrow.slick-prev, 
+.product-accessories .products .slick-arrow.slick-prev, 
+.product-miniature .products .slick-arrow.slick-prev {left: 0;}
+
+#products .products .slick-arrow, 
+.featured-products .products .slick-arrow, 
+.product-accessories .products .slick-arrow, 
+.product-miniature .products .slick-arrow {left: 35px;}
+
+.slick-prev,
+.product-miniature .thumbnail-container .discount-amount.discount-amount, 
+.product-miniature .thumbnail-container .discount-amount.discount-percentage, 
+.product-miniature .thumbnail-container .discount-percentage.discount-amount, 
+.product-miniature .thumbnail-container .discount-percentage.discount-percentage, 
+.product-miniature .thumbnail-container .on-sale.discount-amount, 
+.product-miniature .thumbnail-container .on-sale.discount-percentage, 
+.product-miniature .thumbnail-container .online-only.discount-amount, 
+.product-miniature .thumbnail-container .online-only.discount-percentage, 
+.product-miniature .thumbnail-container .pack.discount-amount, 
+.product-miniature .thumbnail-container .pack.discount-percentage, 
+.product-miniature .thumbnail-container .product-flags .new.discount-amount, 
+.product-miniature .thumbnail-container .product-flags .new.discount-percentage {left: 0; right: inherit;}
+
+.product-miniature .thumbnail-container .discount-amount, 
+.product-miniature .thumbnail-container .discount-percentage, 
+.product-miniature .thumbnail-container .on-sale, 
+.product-miniature .thumbnail-container .online-only, 
+.product-miniature .thumbnail-container .pack, 
+.product-miniature .thumbnail-container .product-flags .new {right: 0}
+
+.btn.btn-icon:before {content: "\F053"}
+
+#footer .footer-container .headings, 
+#footer .footer-container h3, 
+#footer .footer-container .links a, 
+#footer .footer-container .links p,
+#product .product-prices a,
+#product .product-information a {text-align: right; display: block;}
+
+.custom-checkbox input[type=checkbox]+span {margin: 0 5px 0 0;}
+
+#wrapper .breadcrumb li:after{content: "";}
+#wrapper .breadcrumb li:before{content: "/";color: #999898;margin: 5px;}
+#wrapper .breadcrumb li:last-child:before{content: "";}
+
+.pagination .page-list li i.fa-chevron-left {padding: 0 5px 0 0}
+.pagination .page-list li i.fa-chevron-right {padding: 0 0 0 5px}
+
+.product-prices .product-price .current-price .discount {margin-right: 0; margin-left: 10px}
+
+.product-quantity .input-group-btn-vertical .btn {z-index: 5; left: -22px}
+
+#blockcart-modal .cart-content .cart-content-btn button {margin-left: 0; margin-right: 40px}
+
+.product-images {padding-left: 0;}
+.product-images>li.thumb-container {margin-left: 0;}
+
+.media-left{padding-left: 0; padding-right: 10px}
+
+body#checkout section.checkout-step .address-selector .address {margin-right: 0; margin-left: 30px}
+
+#order-items table td {float: right; padding-left: 10px}
+
+.alert .content-help-info {display: inherit;}
