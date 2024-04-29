@@ -47,7 +47,7 @@
 	</div>
 
 	<div class="bloc-line">
-		<p>Poursuivre en invité</p>
+		<p>Créer un compte</p>
 	</div>
 
 	<div class="{if isset($page) && isset($page.page_name) && $page.page_name == 'authentication' || $page.page_name == 'identity'}col-md-6 col-xs-12 push-md-3 push-xs-0{else}col-xs-12{/if}">

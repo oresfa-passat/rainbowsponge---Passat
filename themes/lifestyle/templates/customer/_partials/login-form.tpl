@@ -39,19 +39,19 @@
 					{/block}
 				{/foreach}
 			{/block}
-			<div class="forgot-password">
-				<a class="small-text custom-link-color" href="{$urls.pages.password}" rel="nofollow">
-					{l s='Forgot your password?' d='Shop.Theme.Customeraccount'}
-				</a>
-			</div>
 		</section>
 
 		{block name='login_form_footer'}
 			<footer class="form-footer text-xs-center clearfix">
 				<input type="hidden" name="submitLogin" value="1">
+				<div class="forgot-password">
+					<a class="small-text" href="{$urls.pages.password}" rel="nofollow">
+						{l s='Forgot your password?' d='Shop.Theme.Customeraccount'}
+					</a>
+				</div>
 				{block name='form_buttons'}
-					<button class="btn btn-small custom-button" data-link-action="sign-in" type="submit" class="form-control-submit">
-						{l s='Sign in' d='Shop.Theme.Actions'}
+					<button class="btn btn-small" data-link-action="sign-in" type="submit" class="form-control-submit">
+						Connexion
 					</button>
 				{/block}
 			</footer>
