@@ -56,3 +56,26 @@
 	height: 25px;
 }
 
+input.form-control {
+	border: 1px solid #000;
+	height: 42px;
+}
+
+input.form-control::placeholder {
+	color: #000;
+}
+
+.custom-checkbox input[type="checkbox"] + span {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+}
+    
+.checkbox {
+	padding-left: 0;
+	margin-bottom: 0;
+}
