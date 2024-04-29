@@ -58,6 +58,19 @@
 								{block name='cart_summary'}
 									{render file='checkout/checkout-process.tpl' ui=$checkout_process}
 								{/block}
+								{if $logged}
+									<div class="section-step">
+										{block name='cart_summary connected'}
+											{render file='checkout/checkout-process.tpl' ui=$checkout_process}
+										{/block}
+									</div>
+								{else}
+									<div class="section-step no-connected">
+										{block name='cart_summary'}
+											{render file='checkout/checkout-process.tpl' ui=$checkout_process}
+										{/block}
+									</div>
+								{/if}
 							</div>
 							<div class="col-md-4">
 								{block name='cart_summary'}
