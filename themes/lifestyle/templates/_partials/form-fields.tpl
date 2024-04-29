@@ -155,13 +155,10 @@
 						>
 						<span class="input-group-btn">
 						<button
-						class="btn"
+						class="btn btn-icon-password"
 						type="button"
 						data-action="show-password"
-						data-text-show="{l s='Show' d='Shop.Theme.Actions'}"
-						data-text-hide="{l s='Hide' d='Shop.Theme.Actions'}"
 						>
-							{l s='Show' d='Shop.Theme.Actions'}
 						</button>
 						</span>
 					</div>

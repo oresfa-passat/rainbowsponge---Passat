@@ -38,3 +38,21 @@
     text-align: center;
 }
 
+.btn-icon-password {
+	background: #000 !important;
+	height: 42px;
+	padding: 0 20px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-icon-password:hover {
+	background: #F39325;
+}
+
+.btn-icon-password svg {
+	width: 25px;
+	height: 25px;
+}
+
