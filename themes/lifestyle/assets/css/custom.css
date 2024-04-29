@@ -2,3 +2,22 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+
+ .bloc-line {
+    border-bottom: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 70px;
+}
+
+.bloc-line > p {
+    font-weight: 701;
+    top: 10px;
+    position: relative;
+    background-color: #fff;
+    width: fit-content;
+    padding: 0 10px;
+    color: #000;
+}
+
